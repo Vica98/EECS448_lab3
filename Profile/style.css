@@ -1,12 +1,46 @@
 body
 {
-background-color: coral;
-background-image: url(persik2.jpg);
+background-color: #f2f2f2;
+background-image: url(persik3.jpg);
    background-size: 50%;
    background-repeat: no-repeat;
 }
 
 p
 {
+background-color: black;
+color: white;
+font-family: arial;
+font-size: 20pt;
+font-style: italic;
+opacity: 0.7;
+position: absolute;
+top: 30px;
+right:200px;
+width: 600px;
+height: 500px;
+}
 
+h
+{
+font-size: 28pt;
+}
+
+a
+{
+color: purple;
+}
+
+a:hover
+{
+background-color: yellow;
+color: blue;
+}
+
+iframe
+{
+  position: absolute;
+  top: 600px;
+  right:200px;
+  padding-bottom: 100px;
 }
